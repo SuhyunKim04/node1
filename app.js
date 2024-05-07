@@ -16,5 +16,5 @@ app.get('/', (req,res) => {
 app.get('/gallery', (req,res) => {
     res.send('Welcome to gallery')
 })
-app.listen(PORT,() => console.log(`${PORT} portserver is running`) ) 
+app.listen(PORT,() => console.log(`${PORT} portserver is running`) )  // 실행명령어//
 
